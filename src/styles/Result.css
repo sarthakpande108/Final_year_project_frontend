@@ -1,0 +1,69 @@
+/* Result.css */
+body {
+  background-color: #000000; /* Black background */
+  color: #ffffff; /* White text color */
+}
+
+.ant-layout-header {
+  background-color: #1a1a1a; /* Dark gray background for header */
+}
+
+.ant-card {
+  /* background-color: #1a1a1a; Dark gray background for card */
+  border-color: #333333; /* Slightly lighter border for card */
+}
+
+.ant-layout-content {
+  background-color: #000000; /* Black background */
+  color: #ffffff; /* White text */
+}
+
+.ant-table-cell {
+  background-color: #1a1a1a; /* Dark background for table cells */
+  color: #ffffff; /* White text for table cells */
+}
+
+.table-section hr {
+  border-color: #333333; /* Gray line color */
+}
+
+.ant-modal-content {
+  background-color: #1a1a1a; /* Dark background for modal */
+  color: #ffffff; /* White text for modal */
+}
+
+.ant-modal-header {
+  background-color: #1a1a1a; /* Dark header for modal */
+}
+
+.ant-modal-title {
+  color: #ffffff; /* White title for modal */
+}
+
+.ant-modal-close-x {
+  color: #ffffff; /* White close icon for modal */
+}
+
+.ant-modal-body {
+  background-color: #1a1a1a; /* Dark body for modal */
+  color: #ffffff; /* White text for modal */
+}
+@keyframes shimmer {
+  0% {
+    background-position: -200px 0;
+  }
+  100% {
+    background-position: 200px 0;
+  }
+}
+
+.skeleton-shimmer {
+  background: linear-gradient(
+    to right,
+    #4a4a4a 4%,
+    #5a5a5a 25%,
+    #4a4a4a 36%
+  );
+  background-size: 1000px 100%;
+  animation: shimmer 2s infinite linear;
+}

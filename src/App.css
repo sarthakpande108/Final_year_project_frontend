@@ -1,0 +1,29 @@
+/* App.css */
+body {
+  background-color: #000000; /* Black background for the entire app */
+  color: #FFFFFF; /* White text color */
+}
+
+
+.header, .footer {
+  background-color: #000000; /* Black background for header and footer */
+  color: #FFFFFF; /* White text color */
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem;
+}
+
+.navbar a {
+  color: #FFFFFF; /* White text color */
+  text-decoration: none;
+  font-size: 1.25rem;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+@import 'animate.css';

@@ -1,0 +1,39 @@
+.table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table thead {
+    background-color: #1f2937;
+  }
+  
+  .table thead th {
+    color: #f9fafb;
+    border: 1px solid #4b5563;
+  }
+  
+  .table tbody tr:nth-child(even) {
+    background-color: #2d3748;
+  }
+  
+  .table tbody tr:nth-child(odd) {
+    background-color: #1f2937;
+  }
+  
+  .table tbody td {
+    border: 1px solid #4b5563;
+    padding: 8px;
+  }
+  
+  .table tbody td button {
+    background: none;
+    border: none;
+    color: #f87171;
+    cursor: pointer;
+  }
+  
+  .table tbody td button:hover {
+    color: #dc2626;
+  }
+
+  
